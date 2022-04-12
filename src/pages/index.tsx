@@ -1,11 +1,8 @@
 import type { NextPage } from "next";
+import Layout from "components/Layout";
 
 const Home: NextPage = () => {
-  return (
-    <div>
-      <p className="text-3xl text-center text-red-500">Hello World</p>
-    </div>
-  );
+  return <Layout title="Home">hello</Layout>;
 };
 
 export default Home;

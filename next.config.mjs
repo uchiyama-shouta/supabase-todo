@@ -7,6 +7,9 @@ const config = {
   images: {
     formats: ["image/avif", "image/webp"],
   },
+  experimental: {
+    runtime: "nodejs",
+  },
 };
 
 export default config;
