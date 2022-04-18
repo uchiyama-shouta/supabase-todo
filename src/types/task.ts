@@ -4,3 +4,5 @@ export type Task = {
   title: string;
   user_id: string | undefined;
 };
+
+export type EditedTask = Omit<Task, "created_at" | "user_id">;
